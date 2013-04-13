@@ -30,14 +30,13 @@ Essentially, this is mostly a wrapper around three different components (mdpress
 
 The following applications have to be installed (the instructions are for Linux, as it is the only OS I am using):
 
-+ Python 2.x or 3.x (should already be there)
 + mdpress: the easiest way is to use Ruby Gems: `sudo gem install mdpress`
 + Pandoc: Available through most package managers (see [the project website](http://johnmacfarlane.net/pandoc/installing.html)
 + PDFLaTeX: Available through the Texlive package in almost all distros
 
 ## Usage
 
-`ram inputfile.md`
+`amr inputfile.md`
 
 The document needs to have some formatting:
 
@@ -46,9 +45,9 @@ The document should contain the metadata for the presentation. After that, the p
     /title My little presentation
     /subtitle A short overview of something
     /author Tobias Kliem
-    /email Tobias.Kliem@canterbury.ac.uk
-    /institution Canterbury Christ Church University
-    /filename example
+    email Tobias.Kliem@example.com
+    /institution My Corporation Inc
+    /filename example01
     /style work
 
     # First slide
