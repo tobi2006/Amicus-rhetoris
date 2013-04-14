@@ -4,6 +4,10 @@
 
 The idea of this little Bash project is to allow me to write presentations in Markdown that get converted into a good looking HTML/CSS/JS presentation using [mdpress](https://github.com/egonSchiele/mdpress) and, using [Pandoc](http://johnmacfarlane.net/pandoc/README.html), into a .tex file that then gets turned into a beautiful PDF file as a handout.
 
+## Issues
+
+Currently the folder variables suck... The programme only works properly if called from its own folder. I hope to get around fixing that soon (or maybe someone with better Shell capabilities could help?)
+
 ## Features
 
 Essentially, this is mostly a wrapper around three different components (mdpress, pandoc and pdflatex), and the programming challenge is minor. But besides listing the three components, a few things have to be addressed:
